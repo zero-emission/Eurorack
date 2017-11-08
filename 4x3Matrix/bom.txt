@@ -8,7 +8,7 @@ Default 100k is unity gain.
 _________
 BOM
 
-12x 9mm 100K potmeter
+12x 9mm 100K potmeter  (I use tall trimmer pots, regular pots with knobs are too large)
 7x Thonkiconn jack
 1x Power header
 Part     Value                    Package              
