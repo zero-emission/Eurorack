@@ -1,0 +1,28 @@
+
+All resistors 100k except for the three 1k output resistors.
+
+If you like you can change the A B and C gain resistors marked on the pcb to a different value, for higher or lower gain.
+
+Default 100k is unity gain.
+
+_________
+BOM
+
+12x 9mm 100K potmeter
+7x Thonkiconn jack
+1x Power header
+Part     Value                    Package              
+
+C1       100nF                    0805                 
+C7       10uF                     CPOL-RADIAL-10UF-35V 
+C8       10uF                     CPOL-RADIAL-10UF-35V 
+C9       100nF                    0805                 
+C10      100nF                    0805                 
+C11      100nF                    0805                 
+D3       1N4004                   DO41-10              
+D4       1N4004                   DO41-10              
+
+R1-R21   100k                     0805                 
+R22-24   1k                       0805                 
+U1       TL074_SMD                SO14     
+U2       TL072_SMD                SO08         
