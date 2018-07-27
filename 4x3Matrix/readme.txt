@@ -6,6 +6,8 @@ The four inputs can be mixed in a three different ways for three different outpu
 
 The mixer is DC coupled, so can be used for both CV and audio.
 
+
+Please double check IC orientation: TL072 pin 1 is down, TL074 pin 1 is up (Skewed side of the IC)
 Some examples:
 
 - Mix four cv signals to three different outputs
