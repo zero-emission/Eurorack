@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/d1v1n/kicad/Eurorack/4x3Matrix/kicad/3x4Matrix.sch)
-    (date "Sat 18 Jul 2020 01:35:49 AM +04")
+    (date "Sat 18 Jul 2020 01:26:32 AM +04")
     (tool "Eeschema 5.1.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name "3x4Matrix")(type Legacy)(uri "/home/d1v1n/kicad/Eurorack/4x3Matrix/kicad/3x4Matrix.mod")(options "")(descr ""))
 )

@@ -157,10 +157,10 @@ F 3 "" H 2150 1950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C1
+L Device:C C5
 U 1 1 5EFF2ECB
 P 5450 6500
-F 0 "C1" H 5400 6150 70  0000 L BNN
+F 0 "C5" H 5400 6150 70  0000 L BNN
 F 1 "100nF" H 5400 6000 70  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5440 6290 65  0001 L TNN
 F 3 "" H 5450 6500 50  0001 C CNN
@@ -168,10 +168,10 @@ F 3 "" H 5450 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C7
+L Device:CP C2
 U 1 1 5EFF2F93
 P 1950 6200
-F 0 "C7" H 1700 6250 70  0000 L BNN
+F 0 "C2" H 1700 6250 70  0000 L BNN
 F 1 "10uF" H 1650 6000 70  0000 L BNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1940 5990 65  0001 L TNN
 F 3 "" H 1950 6200 50  0001 C CNN
@@ -179,10 +179,10 @@ F 3 "" H 1950 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C8
+L Device:CP C1
 U 1 1 5EFF305B
 P 1950 6600
-F 0 "C8" H 1750 6650 70  0000 L BNN
+F 0 "C1" H 1750 6650 70  0000 L BNN
 F 1 "10uF" H 1650 6450 70  0000 L BNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1940 6390 65  0001 L TNN
 F 3 "" H 1950 6600 50  0001 C CNN
@@ -190,10 +190,10 @@ F 3 "" H 1950 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Device:C C8
 U 1 1 5EFF3123
 P 4850 6100
-F 0 "C9" H 4750 6500 70  0000 L BNN
+F 0 "C8" H 4750 6500 70  0000 L BNN
 F 1 "100nF" H 4750 6350 70  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4840 5890 65  0001 L TNN
 F 3 "" H 4850 6100 50  0001 C CNN
@@ -201,10 +201,10 @@ F 3 "" H 4850 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Device:C C7
 U 1 1 5EFF31EB
 P 4850 6600
-F 0 "C10" H 4800 6350 70  0000 L BNN
+F 0 "C7" H 4800 6350 70  0000 L BNN
 F 1 "100nF" H 4800 6200 70  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4840 6390 65  0001 L TNN
 F 3 "" H 4850 6600 50  0001 C CNN
@@ -212,10 +212,10 @@ F 3 "" H 4850 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L Device:C C6
 U 1 1 5EFF32B3
 P 5450 6100
-F 0 "C11" H 5300 6500 70  0000 L BNN
+F 0 "C6" H 5300 6500 70  0000 L BNN
 F 1 "100nF" H 5300 6350 70  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5440 5890 65  0001 L TNN
 F 3 "" H 5450 6100 50  0001 C CNN
@@ -928,8 +928,6 @@ Connection ~ 1950 2450
 Wire Wire Line
 	4850 6750 4450 6750
 Wire Wire Line
-	4450 6750 4150 6750
-Wire Wire Line
 	3950 6650 3550 6650
 Wire Wire Line
 	3950 7150 3950 6750
@@ -988,10 +986,6 @@ Connection ~ 8150 4450
 Wire Wire Line
 	3950 6250 3950 6150
 Wire Wire Line
-	3950 6150 4150 6150
-Wire Wire Line
-	4150 6150 4450 6150
-Wire Wire Line
 	4450 6150 4650 6150
 Wire Wire Line
 	4650 6150 4650 5950
@@ -1007,7 +1001,6 @@ Wire Wire Line
 	1950 5950 1950 6050
 Connection ~ 4850 5950
 Connection ~ 3950 6150
-Connection ~ 4150 6150
 Connection ~ 4450 6150
 Wire Wire Line
 	6750 1450 6750 850 
@@ -1388,10 +1381,10 @@ Wire Wire Line
 	3150 2300 3150 2100
 Connection ~ 5450 6350
 $Comp
-L Amplifier_Operational:TL072 U2
+L Amplifier_Operational:TL072 U3
 U 3 1 5EFF5A8B
 P 4550 6450
-F 0 "U2" H 4540 6440 65  0001 L TNN
+F 0 "U3" H 4540 6440 65  0001 L TNN
 F 1 "TL072_SMD" H 4540 6340 65  0001 L TNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4540 6240 65  0001 L TNN
 F 3 "" H 4550 6450 50  0001 C CNN
@@ -1399,10 +1392,10 @@ F 3 "" H 4550 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL072 U2
+L Amplifier_Operational:TL072 U3
 U 1 1 5EFF59C3
 P 6450 4450
-F 0 "U2" H 6549 4575 70  0000 L BNN
+F 0 "U3" H 6549 4575 70  0000 L BNN
 F 1 "TL072_SMD" H 6550 4250 70  0000 L BNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6440 4240 65  0001 L TNN
 F 3 "" H 6450 4450 50  0001 C CNN
@@ -1410,69 +1403,14 @@ F 3 "" H 6450 4450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:TL072 U2
+L Amplifier_Operational:TL072 U3
 U 2 1 5EFF5A27
 P 7550 4450
-F 0 "U2" H 7649 4575 70  0000 L BNN
+F 0 "U3" H 7649 4575 70  0000 L BNN
 F 1 "TL072_SMD" H 7650 4250 70  0000 L BNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7540 4240 65  0001 L TNN
 F 3 "" H 7550 4450 50  0001 C CNN
 	2    7550 4450
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U1
-U 5 1 5EFF58FB
-P 4250 6450
-F 0 "U1" H 4240 6440 65  0001 L TNN
-F 1 "TL074_SMD" H 4240 6340 65  0001 L TNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4240 6240 65  0001 L TNN
-F 3 "" H 4250 6450 50  0001 C CNN
-	5    4250 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U1
-U 4 1 5EFF5897
-P 7550 2950
-F 0 "U1" H 7649 3075 70  0000 L BNN
-F 1 "TL074_SMD" H 7650 2750 70  0000 L BNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7540 2740 65  0001 L TNN
-F 3 "" H 7550 2950 50  0001 C CNN
-	4    7550 2950
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U1
-U 2 1 5EFF57CF
-P 7550 1450
-F 0 "U1" H 7649 1575 70  0000 L BNN
-F 1 "TL074_SMD" H 7650 1250 70  0000 L BNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7540 1240 65  0001 L TNN
-F 3 "" H 7550 1450 50  0001 C CNN
-	2    7550 1450
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U1
-U 1 1 5EFF576B
-P 6450 1450
-F 0 "U1" H 6549 1575 70  0000 L BNN
-F 1 "TL074_SMD" H 6550 1250 70  0000 L BNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6440 1240 65  0001 L TNN
-F 3 "" H 6450 1450 50  0001 C CNN
-	1    6450 1450
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U1
-U 3 1 5EFF5833
-P 6450 2950
-F 0 "U1" H 6549 3075 70  0000 L BNN
-F 1 "TL074_SMD" H 6550 2750 70  0000 L BNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6440 2740 65  0001 L TNN
-F 3 "" H 6450 2950 50  0001 C CNN
-	3    6450 2950
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -1717,14 +1655,137 @@ F 3 "" H 3400 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3550 6250 3950 6250
-Wire Wire Line
-	3950 6750 4150 6750
 Connection ~ 3950 6750
 Wire Wire Line
 	3950 6750 3950 6650
-Connection ~ 4150 6750
 Wire Wire Line
 	1950 6750 1950 7150
 Wire Wire Line
 	1950 7150 3950 7150
+$Comp
+L Amplifier_Operational:TL072 U1
+U 1 1 5EFF576B
+P 6450 1450
+F 0 "U1" H 6549 1575 70  0000 L BNN
+F 1 "TL072_SMD" H 6550 1250 70  0000 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6440 1240 65  0001 L TNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6450 1450 50  0001 C CNN
+	1    6450 1450
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 2 1 5EFF57CF
+P 7550 1450
+F 0 "U1" H 7649 1575 70  0000 L BNN
+F 1 "TL072_SMD" H 7650 1250 70  0000 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7540 1240 65  0001 L TNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7550 1450 50  0001 C CNN
+	2    7550 1450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3950 6750 4150 6750
+Wire Wire Line
+	3950 6150 4150 6150
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 5F181DA9
+P 4250 6450
+F 0 "U1" H 4208 6496 50  0001 L CNN
+F 1 "TL072_SMD" H 4208 6405 50  0001 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4250 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4250 6450 50  0001 C CNN
+	3    4250 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 6750
+Wire Wire Line
+	4150 6750 4300 6750
+Connection ~ 4150 6150
+Wire Wire Line
+	4150 6150 4300 6150
+$Comp
+L Amplifier_Operational:TL072 U2
+U 1 1 5F1BB2B0
+P 6450 2950
+F 0 "U2" H 6549 3075 70  0000 L BNN
+F 1 "TL072_SMD" H 6550 2750 70  0000 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6440 2740 65  0001 L TNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6450 2950 50  0001 C CNN
+	1    6450 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U2
+U 2 1 5F1C17C2
+P 7550 2950
+F 0 "U2" H 7649 3075 70  0000 L BNN
+F 1 "TL072_SMD" H 7650 2750 70  0000 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7540 2740 65  0001 L TNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7550 2950 50  0001 C CNN
+	2    7550 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U2
+U 3 1 5F1D1498
+P 4400 6450
+F 0 "U2" H 4358 6496 50  0001 L CNN
+F 1 "TL072_SMD" H 4358 6405 50  0001 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4400 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4400 6450 50  0001 C CNN
+	3    4400 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 6750
+Wire Wire Line
+	4300 6750 4450 6750
+Connection ~ 4300 6150
+Wire Wire Line
+	4300 6150 4450 6150
+$Comp
+L Device:C C4
+U 1 1 5F1A823F
+P 6150 6100
+F 0 "C4" H 6000 6500 70  0000 L BNN
+F 1 "100nF" H 6000 6350 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6140 5890 65  0001 L TNN
+F 3 "" H 6150 6100 50  0001 C CNN
+	1    6150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F1A8B92
+P 6150 6600
+F 0 "C3" H 6100 6250 70  0000 L BNN
+F 1 "100nF" H 6100 6100 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6140 6390 65  0001 L TNN
+F 3 "" H 6150 6600 50  0001 C CNN
+	1    6150 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6750 6150 6750
+Connection ~ 5450 6750
+Wire Wire Line
+	5450 5950 6150 5950
+Connection ~ 5450 5950
+Wire Wire Line
+	6150 6250 6150 6350
+$Comp
+L power:GND #GND?
+U 1 1 5F1DDE6D
+P 6150 6350
+F 0 "#GND?" V 6150 5750 70  0000 L BNN
+F 1 "GND" V 6250 6000 70  0000 L BNN
+F 2 "" H 6150 6350 60  0001 C CNN
+F 3 "" H 6150 6350 60  0001 C CNN
+	1    6150 6350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6150 6350
+Wire Wire Line
+	6150 6350 6150 6450
 $EndSCHEMATC
