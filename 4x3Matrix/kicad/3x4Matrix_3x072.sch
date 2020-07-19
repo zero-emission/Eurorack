@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_POT A1
+L Device:R_POT A_1
 U 1 1 5EFF2507
 P 4150 4750
-F 0 "A1" V 3950 4651 70  0000 L BNN
+F 0 "A_1" V 3950 4651 70  0000 L BNN
 F 1 "A100K" V 4050 4650 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 4140 4540 65  0001 L TNN
 F 3 "" H 4150 4750 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 4150 4750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT A2
+L Device:R_POT A_2
 U 1 1 5EFF25CF
 P 4150 3850
-F 0 "A2" V 3950 3751 70  0000 L BNN
+F 0 "A_2" V 3950 3751 70  0000 L BNN
 F 1 "A100K" V 4050 3750 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 4140 3640 65  0001 L TNN
 F 3 "" H 4150 3850 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "" H 4150 3850 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT A3
+L Device:R_POT A_3
 U 1 1 5EFF2697
 P 4150 2950
-F 0 "A3" V 3950 2851 70  0000 L BNN
+F 0 "A_3" V 3950 2851 70  0000 L BNN
 F 1 "A100K" V 4050 2850 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 4140 2740 65  0001 L TNN
 F 3 "" H 4150 2950 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "" H 4150 2950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT A4
+L Device:R_POT A_4
 U 1 1 5EFF275F
 P 4150 1950
-F 0 "A4" V 3950 1851 70  0000 L BNN
+F 0 "A_4" V 3950 1851 70  0000 L BNN
 F 1 "A100K" V 4050 1850 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 4140 1740 65  0001 L TNN
 F 3 "" H 4150 1950 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "" H 4150 1950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT B1
+L Device:R_POT B_1
 U 1 1 5EFF2827
 P 3150 4750
-F 0 "B1" V 2950 4651 70  0000 L BNN
+F 0 "B_1" V 2950 4651 70  0000 L BNN
 F 1 "A100K" V 3050 4650 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 3140 4540 65  0001 L TNN
 F 3 "" H 3150 4750 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "" H 3150 4750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT B2
+L Device:R_POT B_2
 U 1 1 5EFF28EF
 P 3150 3850
-F 0 "B2" V 2950 3751 70  0000 L BNN
+F 0 "B_2" V 2950 3751 70  0000 L BNN
 F 1 "A100K" V 3050 3750 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 3140 3640 65  0001 L TNN
 F 3 "" H 3150 3850 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "" H 3150 3850 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT B3
+L Device:R_POT B_3
 U 1 1 5EFF29B7
 P 3150 2950
-F 0 "B3" V 2950 2851 70  0000 L BNN
+F 0 "B_3" V 2950 2851 70  0000 L BNN
 F 1 "A100K" V 3050 2850 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 3140 2740 65  0001 L TNN
 F 3 "" H 3150 2950 50  0001 C CNN
@@ -91,10 +91,10 @@ F 3 "" H 3150 2950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT B4
+L Device:R_POT B_4
 U 1 1 5EFF2A7F
 P 3150 1950
-F 0 "B4" V 2950 1851 70  0000 L BNN
+F 0 "B_4" V 2950 1851 70  0000 L BNN
 F 1 "A100K" V 3050 1850 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 3140 1740 65  0001 L TNN
 F 3 "" H 3150 1950 50  0001 C CNN
@@ -113,10 +113,10 @@ F 3 "" H 2150 5050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT C-1-34
+L Device:R_POT C_1
 U 1 1 5EFF2BAB
 P 2150 4750
-F 0 "C-1-34" V 1950 4651 70  0000 L BNN
+F 0 "C_1" V 1950 4651 70  0000 L BNN
 F 1 "A100K" V 2050 4650 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 2140 4540 65  0001 L TNN
 F 3 "" H 2150 4750 50  0001 C CNN
@@ -124,10 +124,10 @@ F 3 "" H 2150 4750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT C-2
+L Device:R_POT C_2
 U 1 1 5EFF2C73
 P 2150 3850
-F 0 "C-2" V 1950 3751 70  0000 L BNN
+F 0 "C_2" V 1950 3751 70  0000 L BNN
 F 1 "A100K" V 2050 3750 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 2140 3640 65  0001 L TNN
 F 3 "" H 2150 3850 50  0001 C CNN
@@ -135,10 +135,10 @@ F 3 "" H 2150 3850 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT C-3
+L Device:R_POT C_3
 U 1 1 5EFF2D3B
 P 2150 2950
-F 0 "C-3" V 1950 2851 70  0000 L BNN
+F 0 "C_3" V 1950 2851 70  0000 L BNN
 F 1 "A100K" V 2050 2850 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 2140 2740 65  0001 L TNN
 F 3 "" H 2150 2950 50  0001 C CNN
@@ -146,10 +146,10 @@ F 3 "" H 2150 2950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT C-4
+L Device:R_POT C_4
 U 1 1 5EFF2E03
 P 2150 1950
-F 0 "C-4" V 1950 1851 70  0000 L BNN
+F 0 "C_4" V 1950 1851 70  0000 L BNN
 F 1 "A100K" V 2050 1850 70  0000 L BNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 2140 1740 65  0001 L TNN
 F 3 "" H 2150 1950 50  0001 C CNN
@@ -223,10 +223,10 @@ F 3 "" H 5450 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D4
+L Device:D D2
 U 1 1 5EFF3443
 P 3400 6650
-F 0 "D4" H 3500 6669 70  0000 L BNN
+F 0 "D2" H 3500 6669 70  0000 L BNN
 F 1 "1N4004" H 3500 6559 70  0000 L BNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3390 6440 65  0001 L TNN
 F 3 "" H 3400 6650 50  0001 C CNN
@@ -487,10 +487,10 @@ F 3 "" H 5450 6350 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT M1
+L Connector:AudioJack2_SwitchT IN1
 U 1 1 5EFF3E6B
 P 1600 4350
-F 0 "M1" H 1500 4510 70  0000 L BNN
+F 0 "IN1" H 1500 4510 70  0000 L BNN
 F 1 "AudioJack" H 1590 4240 65  0001 L TNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1590 4140 65  0001 L TNN
 F 3 "" H 1600 4350 50  0001 C CNN
@@ -498,10 +498,10 @@ F 3 "" H 1600 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT M2
+L Connector:AudioJack2_SwitchT IN2
 U 1 1 5EFF3F33
 P 1600 3450
-F 0 "M2" H 1500 3610 70  0000 L BNN
+F 0 "IN2" H 1500 3610 70  0000 L BNN
 F 1 "AudioJack" H 1590 3340 65  0001 L TNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1590 3240 65  0001 L TNN
 F 3 "" H 1600 3450 50  0001 C CNN
@@ -509,10 +509,10 @@ F 3 "" H 1600 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT M3
+L Connector:AudioJack2_SwitchT IN3
 U 1 1 5EFF3FFB
 P 1600 2550
-F 0 "M3" H 1500 2710 70  0000 L BNN
+F 0 "IN3" H 1500 2710 70  0000 L BNN
 F 1 "AudioJack" H 1590 2440 65  0001 L TNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1590 2340 65  0001 L TNN
 F 3 "" H 1600 2550 50  0001 C CNN
@@ -520,10 +520,10 @@ F 3 "" H 1600 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT M4
+L Connector:AudioJack2_SwitchT IN4
 U 1 1 5EFF40C3
 P 1550 1550
-F 0 "M4" H 1450 1710 70  0000 L BNN
+F 0 "IN4" H 1450 1710 70  0000 L BNN
 F 1 "AudioJack" H 1540 1440 65  0001 L TNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1540 1340 65  0001 L TNN
 F 3 "" H 1550 1550 50  0001 C CNN
@@ -531,10 +531,10 @@ F 3 "" H 1550 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT MAA34
+L Connector:AudioJack2_SwitchT OUTA1
 U 1 1 5EFF418B
 P 9650 4550
-F 0 "MAA34" H 9500 4250 70  0000 L BNN
+F 0 "OUTA1" H 9500 4250 70  0000 L BNN
 F 1 "AudioJack" H 9640 4440 65  0001 L TNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 9640 4340 65  0001 L TNN
 F 3 "" H 9650 4550 50  0001 C CNN
@@ -542,10 +542,10 @@ F 3 "" H 9650 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT MB34
+L Connector:AudioJack2_SwitchT OUTB1
 U 1 1 5EFF4253
 P 9550 3050
-F 0 "MB34" H 9400 2700 70  0000 L BNN
+F 0 "OUTB1" H 9400 2700 70  0000 L BNN
 F 1 "AudioJack" H 9540 2940 65  0001 L TNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 9540 2840 65  0001 L TNN
 F 3 "" H 9550 3050 50  0001 C CNN
@@ -553,10 +553,10 @@ F 3 "" H 9550 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT MCC34
+L Connector:AudioJack2_SwitchT OUTC1
 U 1 1 5EFF431B
 P 9450 1550
-F 0 "MCC34" H 9250 1200 70  0000 L BNN
+F 0 "OUTC1" H 9250 1200 70  0000 L BNN
 F 1 "AudioJack" H 9440 1440 65  0001 L TNN
 F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 9440 1340 65  0001 L TNN
 F 3 "" H 9450 1550 50  0001 C CNN
@@ -1643,10 +1643,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 4450 9350 4450
 $Comp
-L Device:D D3
+L Device:D D1
 U 1 1 5EFF337B
 P 3400 6250
-F 0 "D3" H 3500 6268 70  0000 L BNN
+F 0 "D1" H 3500 6268 70  0000 L BNN
 F 1 "1N4004" H 3500 6159 70  0000 L BNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3390 6040 65  0001 L TNN
 F 3 "" H 3400 6250 50  0001 C CNN
